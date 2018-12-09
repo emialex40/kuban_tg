@@ -1,12 +1,3 @@
-mixin link(className, href,name)
-   a(class= className)(href= href)= name
 
-//mixin list(...items)
-//   ul
-//      each item in items
-//         li= item
-
-mixin menuMix(listName, linkName)
-   each i in menu
-      li(class= listName)
-         +link(linkName, i.url, i.name)
+mixin img(cl, img, alt)
+   img(class='img ' + cl, src='img/' + img, alt= alt)

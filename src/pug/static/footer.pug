@@ -1,5 +1,29 @@
 footer.footer
-   h2 Its Footer!
+   .container
+      .footet__top
+         .row.just-between
+            .footer__logo
+               a(href="/")
+                  +img('footer__img','logo_footer.png','footer-logo' )
+            .footer__adress
+               p.
+                  ООО «Кубань Техно Групп»
+                  344012 г. Ростов-на-Дону
+                  ул. Ивановского 38\63 оф. 603-1И
+            .footer__schedule
+               span.footer__title ГРАФИК
+               p.
+                  С 8-00 до 17-00
+                  сб вс выходные
+            .footer__call
+               span.footer__title СВЯЖИТЕСЬ С НАМИ
+               p Тел.: <a href="tel:88632562233">8 (863) 256-22-33</a>
+               p E-mail: <a href="mailto:office@kat.group">office@kat.group</a>
+            .footer__map
+               a.footer__map-link(href="#") Карта сайта
+      .footer__copyright
+         .row.just-center
+            p &copy; ООО «Кубань Техно Групп». Все права защищены.
 
 
 

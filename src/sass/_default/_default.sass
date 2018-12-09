@@ -11,13 +11,52 @@ html, body
   height: 100%
 
 body
-  font-size: 16px
+  font-size: 14px
   position: relative
   line-height: 1.2
   font-family: $reg
-  background: $body
+  color: $textDefualt
+  background: $white
   overflow-x: hidden
   opacity: 1
   -webkit-font-smoothing: antialiased
   -webkit-appearance: none
+  
+input, a
+  outline: none
+  
+a
+  text-decoration: none
+
+ul
+  list-style-type: none
+  display: inline-block
+  li
+    display: inline-block
+
+.page-wrapper
+  width: 100%
+  overflow: hidden
+
+.container
+  max-width: 1170px
+  padding: 0 15px
+  margin: 0 auto
+  box-sizing: border-box
+
+.row
+  display: flex
+  flex-wrap: wrap
+.just-between
+  justify-content: space-between
+.just-arownd
+  justify-content: space-around
+.just-center
+  justify-content: center
+.aline
+  align-items: center
+
+section
+  width: 100%
+  position: relative
 

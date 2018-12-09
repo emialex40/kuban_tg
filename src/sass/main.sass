@@ -1,21 +1,23 @@
 @import "libs/fonts"
 @import "_mixins/_media-qs"
 @import "_mixins/_functions"
+@import "_mixins/_mixins"
 @import "libs/vars"
 
 @import "_default/_clean"
 
 @import "_default/default"
 
-
-.cent
-  margin: 0 auto
+/*======= _components beginning ==========*/
+@import "_components/_header_logo"
+@import "_components/_desc_menu"
+/*======== _components end =============*/
 
 /*======== header ==========*/
 @import "_static/_header"
 
 /*========== content =========*
-@import "_blocks_sass/_index/_content"
+@import "_blocks_sass/_index/banners"
 
 /*========= footer ===========*/
 @import "_static/_footer"

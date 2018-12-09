@@ -3,11 +3,7 @@
 <!-- -var name = ["Главная", "Вторая", "Третья"]-->
 <!-- -var menu = [{url: "https://www.facebook.com/", name: "Главная"},{url: "https://www.facebook.com/", name: "Вторая"},{url: "https://www.facebook.com/", name: "Третья"}, {url: "https://www.facebook.com/", name: "Четвертая"}]-->
 <!-- -var menu2 = [{url: "https://www.facebook.com/", name: "Главная"},{url: "https://www.facebook.com/", name: "Вторая"},{url: "https://www.facebook.com/", name: "Третья"}, {url: "https://www.facebook.com/", name: "Четвертая"}]-->
-<!-- -var menu3 = [{url: "https://www.facebook.com/", name: "Главная"},{url: "https://www.facebook.com/", name: "Вторая"},{url: "https://www.facebook.com/", name: "Третья"}, {url: "https://www.facebook.com/", name: "Четвертая"}]-->
-<!--mixin list(...items)-->
-<!--   ul-->
-<!--      each item in items-->
-<!--         li= item--><!DOCTYPE html>
+<!-- -var menu3 = [{url: "https://www.facebook.com/", name: "Главная"},{url: "https://www.facebook.com/", name: "Вторая"},{url: "https://www.facebook.com/", name: "Третья"}, {url: "https://www.facebook.com/", name: "Четвертая"}]--><!DOCTYPE html>
 <html lang="ru-RU">
   <head>
     <meta charset="utf-8">
@@ -15,20 +11,107 @@
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
   </head>
   <body>
-    <!--header-->
-    <header class="header">
-      <h1>Its Header!</h1>
-    </header>
-    <!--content-->
-    <section>
-      <h2>Its content!</h2>
-    </section>
-    <!--footer-->
-    <footer class="footer">
-      <h2>Its Footer!</h2>
-    </footer>
+    <div class="page-wrapper">
+      <!--header-->
+      <header class="header">
+        <div class="container">
+          <div class="row just-between">
+            <div class="header__logo">
+              <div class="logo aline"><a href="/"><img class="img logo__img" src="img/LOGO.png" alt="logo"/></a></div>
+            </div>
+            <div class="header__manr">
+              <div class="header__top">
+                <div class="header__slogan">
+                  <p>ВАШ БИЗНЕС ПОД КОНТРОЛЕМ!</p>
+                </div>
+                <div class="header__info">
+                  <div class="header__contacts"><a class="header__mail" href="mailto:office@kat.group">office@kat.group</a><a class="header__phone" href="tel:88632562233">8 (863) 256-22-33</a></div><a class="header__icon js-icon" href="#"></a>
+                </div>
+              </div>
+              <div class="header__nav">
+                <nav class="header__nav">
+                  <ul class="desc row just-between">
+                    <li class="desc__item"><a class="desc__link" href="/">Главная</a></li>
+                    <li class="desc__item js-sub">Мониторинг транспорта
+                      <ul class="sub-menu">
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Сельхоз</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Грузовые перевозки</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Городская логистика</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Дорожно строительная техника</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Такси и прокат авто</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Эра-Глонас</a></li>
+                      </ul>
+                    </li>
+                    <li class="desc__item js-sub">Тахография
+                      <ul class="sub-menu">
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Тахографы</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Карты водителя\предприятия</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Услуги сервисног цента</a></li>
+                      </ul>
+                    </li>
+                    <li class="desc__item js-sub">USB / HoReCa
+                      <ul class="sub-menu">
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">USB на транспорте</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">Стационарные решения для баров и ресторанов</a></li>
+                      </ul>
+                    </li>
+                    <li class="desc__item js-sub">Видеонаблюдение
+                      <ul class="sub-menu">
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">На стационарных объектах</a></li>
+                        <li class="sub-menu__item"><a class="sub-menu__link" href="#">На транспорте</a></li>
+                      </ul>
+                    </li>
+                    <li class="desc__item"><a class="desc__link" href="#">Контакты</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--content-->
+      <section class="banner">
+        <div class="banner__silder">
+          <div class="banner__slide1" style="background: url(img/slide_main1.jpg) no-repeat center center;"></div>
+        </div>
+      </section>
+      <!--footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="footet__top">
+            <div class="row just-between">
+              <div class="footer__logo"><a href="/"><img class="img footer__img" src="img/logo_footer.png" alt="footer-logo"/></a></div>
+              <div class="footer__adress">
+                <p>
+                  ООО «Кубань Техно Групп»
+                  344012 г. Ростов-на-Дону
+                  ул. Ивановского 38\63 оф. 603-1И
+                </p>
+              </div>
+              <div class="footer__schedule"><span class="footer__title">ГРАФИК</span>
+                <p>
+                  С 8-00 до 17-00
+                  сб вс выходные
+                </p>
+              </div>
+              <div class="footer__call"><span class="footer__title">СВЯЖИТЕСЬ С НАМИ</span>
+                <p>Тел.: <a href="tel:88632562233">8 (863) 256-22-33</a></p>
+                <p>E-mail: <a href="mailto:office@kat.group">office@kat.group</a></p>
+              </div>
+              <div class="footer__map"><a class="footer__map-link" href="#">Карта сайта</a></div>
+            </div>
+          </div>
+          <div class="footer__copyright">
+            <div class="row just-center">
+              <p>&copy; ООО «Кубань Техно Групп». Все права защищены.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
     <link rel="stylesheet" href="css/main.css">
     <script type="text/javascript" src="libs/jquery/jquery.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>

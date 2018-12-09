@@ -1,2 +1,17 @@
 header.header
-  h1 Its Header!
+  .container
+    .row.just-between
+      .header__logo
+        include ../components/header-logo
+      .header__manr
+        .header__top
+          .header__slogan
+            p ВАШ БИЗНЕС ПОД КОНТРОЛЕМ!
+          .header__info
+            .header__contacts
+              a.header__mail(href="mailto:office@kat.group") office@kat.group
+              a.header__phone(href="tel:88632562233") 8 (863) 256-22-33
+            a.header__icon.js-icon(href="#")
+        .header__nav
+          nav.header__nav
+            include ../components/desc_menu
