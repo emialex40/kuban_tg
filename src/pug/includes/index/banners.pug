@@ -1,4 +1,52 @@
 section.banner
-    .banner__silder
-        .banner__slide1(style="background: url(img/slide_main1.jpg) no-repeat center center;")
+    .banner__silder.js-slider
+        //slide1
+        .banner__slide.banner__slide1(style="background: url(img/slide_main1.jpg) no-repeat center center;")
+            .container
+                .banner__title
+                    h1 Мониторинг транспорта
+                .banner__desc
+                    p спутниковое отслеживание машины
+                .banner__img
+                    +img('img', 'slide1.png','slide1')
+        //slide2
+        .banner__slide.banner__slide1(style="background: url(img/slide_main2.jpg) no-repeat center center;")
+            .container
+                .banner__title
+                    h1 тахография<br> объективные данные:
+                .banner__desc
+                    p скорость машины, режим труда экипажа
+                .banner__img
+                    +img('img', 'slide2.png','slide2')
+        //slide3
+        .banner__slide.banner__slide1(style="background: url(img/slide_main3.jpg) no-repeat center center;")
+            .container
+                .banner__title
+                    h1 компактная USB розетка
+                .banner__desc
+                    p инновационное предложение<br> для владельцев автотранспорта
+                .banner__img
+                    +img('img', 'slide3.png','slide3')
+        //slide4
+        .banner__slide.banner__slide1(style="background: url(img/slide_main4.jpg) no-repeat center center;")
+            .container
+                .banner__title
+                    h1 видеонаблюдение
+                .banner__desc
+                    p техника, топливо,<br> груз под онлайн контролем
+                .banner__img
+                    +img('img', 'slide4.png','slide4')
+        //slide5
+        .banner__slide.banner__slide1(style="background: url(img/slide_main5.jpg) no-repeat center center;")
+            .container
+                .banner__title--glonas
+                    h1 ЭРА-ГЛОНАСС
+                    span Постановление № 153 Рф
+                .banner__desc--glonas
+                    p Установка оборудования глонасс согласно<br> постановлению правительства рф №153
+                .banner__button--glonas
+                    a.banner__btn(href="#") подробнее
+
+
+
 

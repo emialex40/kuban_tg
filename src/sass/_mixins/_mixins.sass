@@ -1,5 +1,10 @@
-=icon($size, $path)
+=icon($sizeW,$sizeH, $path)
   display: inline-block
-  width: $size
-  height: $size
+  width: $sizeW
+  height: $sizeH
   background: url('../img/' + $path)
+
+=background($path)
+  background: url('../img/' + $path) no-repeat center center
+  background-size: cover
+  object-fit: cover

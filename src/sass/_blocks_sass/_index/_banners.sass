@@ -1,6 +1,106 @@
 .banner
-  height: 713px
-  &__slide1
-    height: 713px
+  height: 760px
+  &__slide
+    height: 760px
     background-size: cover
     object-fit: cover
+    padding-top: 110px
+    box-sizing: border-box
+  &__title
+    color: $textDefualt
+    font-family: $extra
+    font-size: 30px
+    font-weight: 400
+    text-transform: uppercase
+    text-align: center
+    &--glonas
+      color: $textDefualt
+      font-family: $extra
+      font-size: 30px
+      font-weight: 400
+      text-transform: uppercase
+      text-align: center
+      span
+        font-size: 30px
+        font-family: $extra
+        color: $textDefualt
+  &__desc
+    color: $grey5
+    font-family: $reg
+    font-size: 20px
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+    padding-top: 33px
+    &--glonas
+      color: $textDefualt
+      font-family: $reg
+      font-size: 20px
+      font-weight: 700
+      text-transform: uppercase
+      text-align: center
+      padding-top: 33px
+  &__img
+    padding-top: 68px
+    margin-left: 325px
+  &__btn
+    display: inline-block
+    position: relative
+    width: 234px
+    height: 55px
+    border-radius: 5px
+    background-color: $white
+    opacity: 0.67
+    color: $bordDark
+    font-family: $semi
+    font-size: 20px
+    font-weight: 400
+    text-transform: uppercase
+    border: 3px solid $bordDark
+    text-align: center
+    line-height: 55px
+    transition: .5s ease-in-out
+    left: 50%
+    transform: translateX(-50%)
+    margin-top: 67px
+    &:hover
+      background: $bordDark
+      color: $white
+      transition: .5s ease-in-out
+
+
+
+.next
+  width: 40px
+  height: 60px
+  border-radius: 5px
+  border: 2px solid $white
+  background-color: $grey4
+  position: absolute
+  top: 50%
+  left: 8%
+  transform: translateY(-50%)
+  cursor: pointer
+  z-index: 1
+  &:after
+    content: ""
+    +icon(40px,60px,'arrows.png')
+    background-position: 0 -3px
+
+.prev
+  width: 40px
+  height: 60px
+  border-radius: 5px
+  border: 2px solid $white
+  background-color: $grey4
+  position: absolute
+  top: 50%
+  right: 8%
+  transform: translateY(-50%)
+  cursor: pointer
+  z-index: 1
+  &:after
+    content: ""
+    +icon(40px,60px,'arrows.png')
+    background-position: -33px -3px
+

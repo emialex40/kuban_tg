@@ -1,0 +1,103 @@
+.get
+  +background('get_bg.jpg')
+  padding: 130px 0
+  &__header
+    color: $textDefualt
+    font-family: $reg
+    font-size: 32px
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+  &__wrapper
+    margin-top: 178px
+  &__circle
+    width: 455px
+    height: 455px
+    border-radius: 50%
+    border: 2px dotted $lightGrey
+    position: relative
+    left: 50%
+    transform: translateX(-50%)
+    &:after
+      content: ""
+      +icon(184px,158px,'LOGO_center.png')
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%,-50%)
+  &__icon
+    display: inline-block
+    width: 91px
+    height: 91px
+    background: $white
+    border: 1px dotted $red
+    border-radius: 50%
+    position: absolute
+    top: 182px
+    left: 182px
+  &_img
+    position: absolute
+    top: 0
+    left: 0
+    +icon(91px,91px,'gets.png')
+  &__text
+    display: inline-block
+    color: $textDefualt
+    font-family: $semi
+    font-size: 18px
+    font-weight: 400
+    position: absolute
+    width: 347px
+
+
+
+
+.gin1
+  transform: rotate(-272deg) translate(-227.5px) rotate(272deg)
+
+.gin2
+  transform: rotate(165deg) translate(-227.5px) rotate(-165deg)
+
+.gin3
+  transform: rotate(225deg) translate(-227.5px) rotate(-225deg)
+
+.gin4
+  transform: rotate(314deg) translate(-227.5px) rotate(-314deg)
+
+.gin5
+  transform: rotate(-345deg) translate(-227.5px) rotate(345deg)
+
+.img1
+  background-position: 4px 7px
+
+.img2
+  background-position: 1px -73px
+
+.img3
+  background-position: 4px -163px
+
+.img4
+  background-position: 5px -253px
+
+.img5
+  background-position: 5px -344px
+
+.txt1
+  top: -60px
+  left: -112px
+
+.txt2
+  top: -15px
+  left: 120px
+
+.txt3
+  top: 55px
+  left: 120px
+
+.txt4
+  top: 35px
+  left: -235px
+
+.txt5
+  top: -18px
+  left: -265px

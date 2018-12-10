@@ -1,0 +1,38 @@
+.about
+  padding-top: 109px
+  padding-bottom: 25px
+  +background('background_About_us.jpg')
+  &__header
+    color: $textDefualt
+    font-family: $semi
+    font-size: 33px
+    font-weight: 400
+    text-transform: uppercase
+  &__desc
+    color: $textDefualt
+    font-family: $reg
+    font-size: 15px
+    font-weight: 400
+  &__toggle
+    width: 120px
+    height: 18px
+    color: $grey6
+    font-family: $semi
+    font-size: 15px
+    font-weight: 400
+    cursor: pointer
+    position: relative
+    margin-top: 38px
+    margin-bottom: 20px
+    p
+      display: inline-block
+      line-height: 18px
+      position: absolute
+      right: 0
+      top: -1px
+  &__tiangle
+    display: inline-block
+    +icon(16px,18px, 'triangle_marker.svg')
+  &__hide
+    @extend .about__desc
+    display: none
