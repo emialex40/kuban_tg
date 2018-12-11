@@ -598,6 +598,234 @@ section {
   left: -265px; }
 
 /*==========get end ======================*/
+/*==========solution beginning =============*/
+.solution {
+  padding-top: 125px; }
+  .solution__header {
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+  .solution__wrapper {
+    padding-top: 97px; }
+  .solution__tabs {
+    width: 100%;
+    border-bottom: 2px solid #929ca5; }
+  .solution__tab {
+    min-width: 262px;
+    cursor: pointer; }
+  .solution__tab-icon {
+    display: inline-block;
+    width: 162px;
+    height: 114px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    fill: #929ca5; }
+    .solution__tab-icon svg {
+      width: 162px;
+      height: 114px; }
+  .solution__tab-title {
+    display: block;
+    color: #929ca5;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 33px;
+    padding-bottom: 22px;
+    height: 36px;
+    position: relative; }
+  .solution__contents {
+    width: 100%;
+    height: 342px;
+    margin-top: 110px; }
+  .solution__content {
+    width: 100%; }
+  .solution__tab-mark {
+    width: 25px;
+    height: 25px;
+    -webkit-box-shadow: 1px 2px 3px rgba(59, 58, 58, 0.45);
+            box-shadow: 1px 2px 3px rgba(59, 58, 58, 0.45);
+    border: 1px solid #929ca5;
+    background-color: #ffffff;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin-bottom: -14px; }
+  .solution__content-item {
+    width: 230px;
+    display: inline-block;
+    margin: 15px 30px; }
+    .solution__content-item:hover > .solution__content-icon {
+      fill: #e31e25;
+      -webkit-transition: .4s ease-in-out;
+      transition: .4s ease-in-out; }
+    .solution__content-item:hover > .solution__content-text {
+      color: #e31e25;
+      -webkit-transition: .4s ease-in-out;
+      transition: .4s ease-in-out; }
+    .solution__content-item svg {
+      width: 60px;
+      height: 30px; }
+  .solution__content-icon {
+    display: block;
+    width: 60px;
+    height: 30px;
+    fill: #929ca5;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); }
+  .solution__content-text {
+    color: #929ca5;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 68px; }
+
+.open > .solution__tab-icon {
+  fill: #e31e25; }
+
+.open > span {
+  color: #e31e25; }
+
+.open > .solution__tab-mark {
+  background: #e31e25;
+  position: relative; }
+  .open > .solution__tab-mark:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    -webkit-border-radius: 50%;
+            border-radius: 50%; }
+
+/*==========solution end ======================*/
+/*==========scheme beginning =============*/
+.scheme {
+  padding-top: 58px;
+  padding-bottom: 385px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url(../img/Bakground_Sheme.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .scheme__header {
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+  .scheme__block {
+    width: 100%;
+    height: 318px;
+    margin-top: 118px; }
+  .scheme__item {
+    max-width: 318px;
+    height: auto;
+    display: inline-block; }
+    .scheme__item:nth-child(odd) {
+      -webkit-align-self: flex-end;
+          -ms-flex-item-align: end;
+              align-self: flex-end; }
+  .scheme__icon {
+    display: inline-block;
+    width: 134px;
+    height: 134px;
+    background: url("../img/schemes.png"); }
+  .scheme__title {
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    min-height: 48px; }
+
+.sic1 {
+  background-position: -15px -13px; }
+
+/*==========scheme end ======================*/
+/*========== glonas beginning =============*/
+.glonas {
+  height: 916px;
+  background: url("../img/Glonass_Background.jpg") no-repeat center center;
+  background-size: cover;
+  object-fit: cover; }
+  .glonas__text {
+    width: 470px;
+    padding-top: 207px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .glonas__header {
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .glonas__resolution {
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 30px; }
+  .glonas__desc {
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 15px; }
+  .glonas__btn {
+    display: inline-block;
+    width: 234px;
+    height: 55px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    background-color: #ffffff;
+    opacity: 0.67;
+    color: #ad0707;
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 3px solid #ad0707;
+    text-align: center;
+    line-height: 55px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    margin-top: 67px; }
+    .glonas__btn:hover {
+      background: #ad0707;
+      color: #ffffff;
+      -webkit-transition: .5s ease-in-out;
+      transition: .5s ease-in-out; }
+
+/*========== glonas end ======================*/
 /*=========================================*/
 /*==========main page end ===========*/
 /*====================================*/

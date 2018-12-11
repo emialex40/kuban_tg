@@ -1,4 +1,13 @@
 $(document).ready(function () {
+    // tabs
+    $(".solution__content").not(":first").hide();
+
+    $(".js-tabs .js-tab").click(function() {
+        $(".js-tabs .js-tab").removeClass("open").eq($(this).index()).addClass("open");
+        $(".solution__content").hide().eq($(this).index()).fadeIn()
+    }).eq(0).addClass("show");
+
+
     //about toggle
     $('.js-about').click(function () {
         var tgl = $('.js-tgl');
