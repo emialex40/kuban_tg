@@ -768,6 +768,21 @@ section {
 .sic1 {
   background-position: -15px -13px; }
 
+.sic2 {
+  background-position: -174px -13px; }
+
+.sic3 {
+  background-position: -14px -171px; }
+
+.sic4 {
+  background-position: -174px -173px; }
+
+.sic5 {
+  background-position: -335px -13px; }
+
+.sic6 {
+  background-position: -335px -172px; }
+
 /*==========scheme end ======================*/
 /*========== glonas beginning =============*/
 .glonas {
@@ -826,6 +841,100 @@ section {
       transition: .5s ease-in-out; }
 
 /*========== glonas end ======================*/
+/*========== request beginning =============*/
+.request {
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.67);
+          box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.67);
+  z-index: 1; }
+  .request__wrapper {
+    width: 100%;
+    position: relative;
+    padding-top: 183px;
+    padding-bottom: 130px; }
+    .request__wrapper:before {
+      content: "";
+      background: url("../img/Drone.svg") no-repeat center center;
+      background-size: cover;
+      object-fit: cover;
+      width: 274px;
+      height: 133px;
+      position: absolute;
+      top: 130px;
+      right: 0;
+      z-index: 0; }
+    .request__wrapper:after {
+      content: "";
+      background: url("../img/House.svg") no-repeat center center;
+      background-size: cover;
+      object-fit: cover;
+      width: 474px;
+      height: 138px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: 0; }
+  .request__header {
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; }
+  .request__top {
+    width: 70.34288%;
+    margin: 0 auto;
+    opacity: 0.999; }
+  .request__header-under {
+    display: inline-block;
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 22px; }
+  .request__bottom {
+    width: 80%;
+    margin-top: 134px;
+    opacity: 0.999; }
+  .request__text {
+    color: #1f1b20;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: block; }
+  .request__btn {
+    display: inline-block;
+    position: relative;
+    width: 234px;
+    height: 55px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    background-color: #e31e25;
+    color: #ffffff;
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 3px solid #e31e25;
+    text-align: center;
+    line-height: 55px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    margin-top: 43px; }
+    .request__btn:hover {
+      background: #ffffff;
+      color: #e31e25;
+      -webkit-transition: .5s ease-in-out;
+      transition: .5s ease-in-out; }
+
+/*========== request end ======================*/
+/*========== y-map beginning =============*/
+.y-map {
+  z-index: 0;
+  opacity: 0.999; }
+
+/*========== y-map end ======================*/
 /*=========================================*/
 /*==========main page end ===========*/
 /*====================================*/
@@ -835,7 +944,11 @@ section {
   background: #1f1b20;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding-top: 24px; }
+  padding-top: 24px;
+  -webkit-box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.67);
+          box-shadow: 0px -3px 10px 0px rgba(0, 0, 0, 0.67);
+  z-index: 1;
+  opacity: 0.999; }
   .footer p {
     color: #cfcece;
     font-family: "OpenSansSemibold", sans-serif;

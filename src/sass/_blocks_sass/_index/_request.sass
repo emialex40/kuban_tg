@@ -1,0 +1,77 @@
+.request
+  width: 100%
+  box-shadow: 0px 3px 10px -2px rgba(0,0,0,0.67)
+  z-index: 1
+  &__wrapper
+    width: 100%
+    position: relative
+    padding-top: 183px
+    padding-bottom: 130px
+    &:before
+      content: ""
+      +background('Drone.svg')
+      width: 274px
+      height: 133px
+      position: absolute
+      top: 130px
+      right: 0
+      z-index: 0
+    &:after
+      content: ""
+      +background('House.svg')
+      width: 474px
+      height: 138px
+      position: absolute
+      bottom: 0
+      right: 0
+      z-index: 0
+  &__header
+    color: $textDefualt
+    font-family: $reg
+    font-size: 32px
+    font-weight: 700
+    text-transform: uppercase
+    text-align: center
+  &__top
+    width: proc(823,1170)
+    margin: 0 auto
+    opacity: 0.999
+  &__header-under
+    display: inline-block
+    color: $textDefualt
+    font-family: $reg
+    font-size: 20px
+    font-weight: 700
+    text-align: center
+    padding-top: 22px
+  &__bottom
+    width: 80%
+    margin-top: 134px
+    opacity: 0.999
+  &__text
+    color: $textDefualt
+    font-family: $reg
+    font-size: 18px
+    font-weight: 700
+    display: block
+  &__btn
+    display: inline-block
+    position: relative
+    width: 234px
+    height: 55px
+    border-radius: 5px
+    background-color: $red
+    color: $white
+    font-family: $semi
+    font-size: 20px
+    font-weight: 400
+    text-transform: uppercase
+    border: 3px solid $red
+    text-align: center
+    line-height: 55px
+    transition: .5s ease-in-out
+    margin-top: 43px
+    &:hover
+      background: $white
+      color: $red
+      transition: .5s ease-in-out
