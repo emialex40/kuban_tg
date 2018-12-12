@@ -2,7 +2,7 @@
   width: 100%
   background: $white
   padding-top: 15px
-  padding-bottom: 2px
+  //padding-bottom: 2px
   box-sizing: border-box
   &__logo
     width: 131px
@@ -10,6 +10,10 @@
     line-height: 158px
   &__manr
     width: proc(945,1170)
+    +respond-to(1024)
+      width: 84%
+    +respond-to(970)
+      display: none
   &__top
     width: 100%
   &__slogan

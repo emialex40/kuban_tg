@@ -1,0 +1,47 @@
+.humb
+  display: none
+  position: absolute
+  top: 50%
+  right: 5%
+  width: 40px
+  height: 28px
+  cursor: pointer
+  transform: translateY(-50%)
+  +respond-to(970)
+    display: inline-block
+  &__line
+    width: $bar-width
+    height: $bar-height
+    position: relative
+    transform: translateY($bar-spacing)
+    background: $textDefualt
+    transition: all 0ms 300ms
+    &:before
+      content: ""
+      width: $bar-width
+      height: $bar-height
+      position: absolute
+      left: 0
+      bottom: $bar-spacing
+      background: $textDefualt
+      transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+    &:after
+      content: ""
+      width: $bar-width
+      height: $bar-height
+      position: absolute
+      left: 0
+      top: $bar-spacing
+      background: $textDefualt
+      transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1)
+
+.animate
+  background: rgba(255, 255, 255, 0)
+  &:after
+    top: 0
+    transform: rotate(45deg)
+    transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1)
+  &:before
+    bottom: 0
+    transform: rotate(-45deg)
+    transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1)

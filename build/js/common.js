@@ -1,4 +1,45 @@
 $(document).ready(function () {
+    //mobile menu close
+    $('.js-m-close').click(function () {
+        navMob.animate({
+            left: '-330px'
+        },600);
+        line.removeClass('animate');
+    });
+
+
+    // humburger
+    var line = $('.humb__line'),
+        navMob = $('.js-mob');
+
+    $('.humb').on('click', function() {
+        line.toggleClass('animate');
+        if(line.hasClass('animate')){
+            navMob.animate({
+                left: 0
+            },600);
+            navMob.css('box-shadow', '3px 0px 19px 0px rgba(0,0,0,0.75)');
+        }else{
+            navMob.animate({
+                left: '-330px'
+            },600);
+        }
+    });
+
+    //nav slide
+    var h_hght = 158;
+    var h_mrgn = 0;
+
+    $(window).scroll(function(){
+        var top = $(this).scrollTop();
+
+        if(top + h_mrgn > h_hght){
+            $('.js-snav').slideDown(500);
+        }else{
+            $('.js-snav').slideUp(500);
+        }
+    });
+
     // tabs
     $(".solution__content").not(":first").hide();
 
@@ -39,6 +80,11 @@ $(document).ready(function () {
                 $(this).children().stop().slideUp(500);
         });
 
+    //sub menu mobile
+    $('.js-sub_mob').click(function () {
+        $(this).children().slideToggle(500);
+    });
+
     //slick slider
     $('.js-slider').slick({
         slidesToShow: 1,
@@ -76,6 +122,21 @@ $(document).ready(function () {
             // settings: "unslick"
             // instead of a settings object
         ]
+    });
+
+    //ontop
+    var top_show = 418;//при каком положении кнопка появляется
+    var delay = 700; // Задержка прокрутки
+    $(document).ready(function() {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > top_show) $('#ontop').fadeIn();
+            else $('#ontop').fadeOut();
+        });
+        $('#ontop').click(function () {
+            $('body, html').animate({
+                scrollTop: 0
+            }, delay);
+        });
     });
 
 

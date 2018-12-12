@@ -8,18 +8,26 @@
     height: 48px
     position: relative
     cursor: pointer
+    border-bottom: 2px solid $white
     &:hover
       color: $red
       border-bottom: 2px solid $red
+    +respond-to(970)
+      font-size: 16px
+      display: block
+      height: auto
+      padding-bottom: 8px
   &__link
     display: inline-block
     color: $textMenu
     height: 48px
     position: relative
+    border-bottom: 2px solid $white
     &:hover
       color: $red
-      border-bottom: 2px solid $red
-
+      //border-bottom: 2px solid $red
+    +respond-to(970)
+      height: auto
 .sub-menu
   display: none
   position: absolute
@@ -41,4 +49,6 @@
     height: 45px
     &:hover
       color: $red
+    +respond-to(970)
+      height: auto
 
