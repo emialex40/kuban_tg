@@ -52,6 +52,7 @@ $(document).ready(function () {
     //about toggle
     $('.js-about').click(function () {
         var tgl = $('.js-tgl');
+        var txt = $('.js-about p');
         $('.js-hide').slideToggle(800);
         tgl.toggleClass('spin');
 
@@ -60,6 +61,7 @@ $(document).ready(function () {
                 'transform': 'rotate(90deg)',
                 'transition': '.8s ease'
             });
+            txt.text('Скрыть');
         } else {
             tgl.css({
                 'transform': 'rotate(0)',
@@ -68,6 +70,7 @@ $(document).ready(function () {
             setTimeout(function () {
                 tgl.removeAttr('style');
             },800);
+            txt.text('Подробнее');
 
         }
     });
@@ -89,7 +92,7 @@ $(document).ready(function () {
     $('.js-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 5000,
         arrows: true,
         nextArrow: '<span class="prev"></span>',

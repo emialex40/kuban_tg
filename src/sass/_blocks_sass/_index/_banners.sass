@@ -13,6 +13,8 @@
     font-weight: 400
     text-transform: uppercase
     text-align: center
+    +respond-to(640)
+      font-size: 24px
     &--glonas
       color: $textDefualt
       font-family: $extra
@@ -20,10 +22,14 @@
       font-weight: 400
       text-transform: uppercase
       text-align: center
+      +respond-to(640)
+        font-size: 24px
       span
         font-size: 30px
         font-family: $extra
         color: $textDefualt
+        +respond-to(640)
+          font-size: 24px
   &__desc
     color: $grey5
     font-family: $reg
@@ -32,6 +38,8 @@
     text-transform: uppercase
     text-align: center
     padding-top: 33px
+    +respond-to(640)
+      font-size: 18px
     &--glonas
       color: $textDefualt
       font-family: $reg
@@ -40,9 +48,21 @@
       text-transform: uppercase
       text-align: center
       padding-top: 33px
+      +respond-to(640)
+        font-size: 18px
+      +respond-to(480)
+        font-size: 16px
   &__img
     padding-top: 68px
     margin-left: 325px
+    +respond-to(1024)
+      width: 70%
+      margin: 0 auto
+      img
+        width: 100%
+        height: auto
+    +respond-to(640)
+      width: 100%
   &__btn
     display: inline-block
     position: relative

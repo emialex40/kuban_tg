@@ -7,6 +7,8 @@
     position: relative
     padding-top: 183px
     padding-bottom: 130px
+    +respond-to(480)
+      padding-bottom: 145px
     &:before
       content: ""
       +background('Drone.svg')
@@ -32,10 +34,14 @@
     font-weight: 700
     text-transform: uppercase
     text-align: center
+    +respond-to(480)
+      font-size: 26px
   &__top
     width: proc(823,1170)
     margin: 0 auto
     opacity: 0.999
+    +respond-to(480)
+      width: 100%
   &__header-under
     display: inline-block
     color: $textDefualt

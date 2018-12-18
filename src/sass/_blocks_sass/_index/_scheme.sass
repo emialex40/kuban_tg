@@ -21,8 +21,12 @@
     max-width: 318px
     height: auto
     display: inline-block
+    +respond-to(875)
+      align-self: flex-start
     &:nth-child(odd)
       align-self: flex-end
+      +respond-to(875)
+        align-self: flex-start
   &__icon
     +icon(134px,134px,'schemes.png')
   &__title

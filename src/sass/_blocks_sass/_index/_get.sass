@@ -10,6 +10,9 @@
     text-align: center
   &__wrapper
     margin-top: 178px
+    +respond-to(480)
+      margin-top: 20px
+      margin-bottom: 350px
   &__circle
     width: 455px
     height: 455px
@@ -18,6 +21,16 @@
     position: relative
     left: 50%
     transform: translateX(-50%)
+    +respond-to(970)
+      display: none
+    &--mob
+      display: none
+      +respond-to(970)
+        display: block
+        width: 100%
+        height: 455px
+        position: relative
+        align-content: center
     &:after
       content: ""
       +icon(184px,158px,'LOGO_center.png')
@@ -35,11 +48,26 @@
     position: absolute
     top: 182px
     left: 182px
+    &--mob
+      display: block
+      width: 91px
+      height: 91px
+      background: $white
+      border: 1px dotted $red
+      border-radius: 50%
+      position: relative
+      margin-bottom: 20px
+      +respond-to(480)
+        left: 50%
+        transform: translateX(-50%)
+        margin-bottom: 90px
   &_img
     position: absolute
     top: 0
     left: 0
     +icon(91px,91px,'gets.png')
+    &--mob
+      +icon(91px,91px,'gets.png')
   &__text
     display: inline-block
     color: $textDefualt
@@ -48,7 +76,22 @@
     font-weight: 400
     position: absolute
     width: 347px
-
+    &--mob
+      display: inline-block
+      color: $textDefualt
+      font-family: $semi
+      font-size: 18px
+      font-weight: 400
+      width: 347px
+      position: absolute
+      top: 50%
+      left: 100px
+      transform: translateY(-50%)
+      +respond-to(480)
+        top: 100px
+        transform: none
+        left: -47px
+        width: 255px
 
 
 
@@ -89,6 +132,9 @@
 .txt2
   top: -15px
   left: 120px
+  +respond-to(1075)
+    left: 65px
+    top: -75px
 
 .txt3
   top: 55px
@@ -101,3 +147,6 @@
 .txt5
   top: -18px
   left: -265px
+  +respond-to(1075)
+    left: -205px
+    top: -60px

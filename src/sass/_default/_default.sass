@@ -50,6 +50,8 @@ ul
   flex-wrap: wrap
 .just-between
   justify-content: space-between
+  +respond-to(640)
+    justify-content: space-around
 .just-arownd
   justify-content: space-around
 .just-center
@@ -60,4 +62,36 @@ ul
 section
   width: 100%
   position: relative
+
+.title-banner
+  width: 100%
+  height: 392px
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+
+.t-header
+  display: inline-block
+  color: $textDefualt
+  font-family: $reg
+  font-size: 40px
+  font-weight: 700
+  text-transform: uppercase
+  position: relative
+  left: 50%
+  transform: translateX(-50%)
+  padding-top: 107px
+  +respond-to(480)
+    font-size: 34px
+
+.border
+  height: 327px
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center center
+  margin-top: 78px
+  margin-bottom: 73px
+
+.grey-bg
+  background: $greyBg
 
