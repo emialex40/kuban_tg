@@ -1,0 +1,27 @@
+.contacts-top
+  width: 100%
+  background: $greyBg
+  &__wrapper
+    width: 100%
+    position: relative
+    height: 85px
+  &__title
+    display: block
+    color: $textMenu
+    font-family: $semi
+    font-size: 17px
+    font-weight: 400
+    text-transform: uppercase
+    position: absolute
+    bottom: 17px
+    left: 0
+    +respond-to(480)
+      font-size: 14px
+  &__dot
+    display: inline-block
+    width: 8px
+    height: 8px
+    background: $textMenu
+    border-radius: 50%
+    position: relative
+    transform: translateY(-2px)

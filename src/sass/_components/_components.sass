@@ -1,0 +1,531 @@
+.top-banner
+  width: 100%
+  height: auto
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  box-sizing: border-box
+  object-fit: cover
+  &__header
+    width: 62%
+    text-align: center
+    margin: 0 auto
+    padding-top: 254px
+    padding-bottom: 358px
+    +respond-to(539)
+      width: 100%
+    h1
+      color: $textDefualt
+      font-family: $semi
+      font-size: 50px
+      font-weight: 400
+      text-transform: uppercase
+      +respond-to(539)
+        font-size: 40px
+    span
+      color: $textDefualt
+      font-family: $semi
+      font-size: 30px
+      font-weight: 400
+      text-transform: uppercase
+      padding-top: 28px
+      line-height: 1
+      display: inline-block
+      +respond-to(539)
+        font-size: 24px
+      +respond-to(480)
+        font-size: 20px
+
+.white
+  width: 90%
+  +respond-to(480)
+    width: 100%
+  h1
+    color: $white
+    text-shadow: 1px 2px 5px rgba(51, 49, 48, 0.67)
+    font-size: 28px
+  span
+    color: $white
+    text-shadow: 1px 2px 5px rgba(51, 49, 48, 0.67)
+
+.left-group
+  width: proc(850,1170)
+  position: relative
+  +respond-to(800)
+    width: 100% !important
+  span
+    color: $textDefualt
+    font-family: $semi
+    font-size: 20px
+    font-weight: 400
+    text-transform: uppercase
+  strong
+    color: $textDefualt
+    font-family: $semi
+    font-size: 18px
+    font-weight: 400
+    display: block
+  p
+    width: 640px
+    color: $textDefualt
+    font-family: $reg
+    font-size: 18px
+    font-weight: 400
+    line-height: 24px
+    +respond-to(800)
+      width: 100%
+  &__img
+    position: absolute
+    bottom: 0
+    right: -567px
+    img
+      width: 100%
+    +respond-to(1024)
+      right: -580px
+    +respond-to(992)
+      position: static
+
+
+.list
+  ul
+    margin-top: 27px
+    li
+      color: $textDefualt
+      font-family: $reg
+      font-size: 18px
+      font-weight: 400
+      position: relative
+      display: inline-block
+      padding-left: 38px
+      display: inline-block
+      padding-bottom: 22px
+      &:before
+        content: ""
+        +icon(21px,22px,'check_mark.png')
+        position: absolute
+        top: 4px
+        left: 0
+
+
+.red-txt > span
+  color: #e31e25
+
+.h2-title h2
+  color: $textDefualt
+  font-family: $semi
+  font-size: 32px
+  font-weight: 400
+  text-transform: uppercase
+
+.h3-title > h3
+  color: $textDefualt
+  font-family: $semi
+  font-size: 28px
+  font-weight: 400
+  text-transform: uppercase
+  +respond-to(480)
+    font-size: 22px
+
+.h4-title > h4
+  color: $textDefualt
+  font-family: $semi
+  font-size: 18px
+  font-weight: 400
+  line-height: 24px
+  text-transform: uppercase
+  +respond-to(480)
+    font-size: 16px
+
+.price
+  color: $grey
+  font-family: $semi
+  font-size: 20px
+  font-weight: 400
+  text-transform: uppercase
+  padding: 0
+  span
+    color: $red
+    font-size: 30px
+  p
+    color: $grey
+    font-family: $semi
+    font-size: 14px
+    display: inline-block
+    padding: 0
+    width: auto
+
+.mid-btn
+  width: 234px
+  height: 55px
+  line-height: 51px
+
+.btn
+  display: inline-block
+  border-radius: 5px
+  font-family: $semi
+  text-transform: uppercase
+  box-sizing: border-box
+  text-align: center
+
+.btn-red
+  background-color: $white
+  border: 3px solid $red
+  font-size: 20px
+  color: $red
+  transition: .5s ease-in-out
+  &:hover
+    background-color: $red
+    color: $white
+    transition: .5s ease-in-out
+
+.btn-grey
+  background-color: $white
+  border: 3px solid $grey
+  font-size: 20px
+  color: $grey
+  transition: .5s ease-in-out
+  &:hover
+    background-color: $red
+    color: $white
+    transition: .5s ease-in-out
+    border: 3px solid $red
+
+.left-marg
+  margin-left: 60px
+  +respond-to(557)
+    margin-left: 0
+    margin-top: 30px
+    display: block
+
+.img-border
+  width: 100%
+  height: 327px
+  background-repeat: no-repeat
+  background-position: center center
+  background-size: cover
+  object-fit: cover
+
+.relative
+  position: relative
+
+
+.strong > strong
+  color: $textDefualt
+  font-family: $semi
+  font-size: 18px
+  font-weight: 400
+  +respond-to(480)
+    font-size: 16px
+
+.img-right-wrapper
+  width: 53%
+  +respond-to(1096)
+    width: 100%
+
+.right__img
+  background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
+
+.revers
+  flex-direction: row-reverse
+  +respond-to(1096)
+    flex-direction: column
+
+
+.plus > span
+  color: $textDefualt
+  font-family: $semi
+  font-size: 17px
+  font-weight: 400
+  line-height: 24px
+  text-transform: uppercase
+
+.strong-padg > strong
+  padding-top: 25px
+  display: block
+  font-size: 18px
+
+.block ul li
+  display: block
+
+.icon-tx > p
+  width: 330px
+  height: 87px
+  color: $textDefualt
+  font-family: $reg
+  font-size: 18px
+  font-weight: 400
+  text-align: center
+  padding-top: 34px
+
+.duble
+  padding-top: 141px
+  padding-bottom: 93px
+  padding-left: 98px
+  width: 100%
+  height: 100%
+  position: absolute
+  top: 0
+  right: -45%
+  background: rgba(179, 179, 179, 0.83)
+  box-sizing: border-box
+  +respond-to(992)
+    right: 0
+    padding-left: 15px
+  &__title
+    width: 540px
+    +respond-to(545)
+      width: 100%
+  &__strong
+    width: 627px
+    +respond-to(630)
+      width: 100%
+  &__list
+    width: 40%
+    +respond-to(992)
+      width: 100%
+    ul
+      li
+        display: block
+  &__icons
+    width: 400px
+    +respond-to(480)
+      width: 100%
+  &__bottom-txt
+    width: 450px
+    color: $bordDark
+    +respond-to(480)
+      width: 100%
+    span
+      font-family: $semi
+      font-size: 18px
+      font-weight: 400
+      &:last-child
+        text-transform: uppercase
+        display: block
+
+.db-title
+  color: $textDefualt
+  font-family: $reg
+  span
+    font-size: 28px
+    font-weight: 400
+    text-transform: uppercase
+    display: block
+  h2
+    font-size: 28px
+    display: inline-block
+    font-family: $semi
+    font-weight: 400
+    text-transform: uppercase
+  strong
+    font-size: 28px
+    display: inline-block
+    font-family: $reg
+    font-weight: 700
+    text-transform: uppercase
+
+.calling__main
+  margin-top: 22px
+  strong
+    display: block
+    font-family: $reg
+    font-weight: 700
+    font-size: 20px
+    color: $textDefualt
+    text-align: center
+    text-transform: uppercase
+    letter-spacing: 0.5px
+    line-height: 26px
+  span
+    display: block
+    font-family: $reg
+    font-size: 20px
+    font-weight: 400
+    color: $textDefualt
+    text-align: center
+    text-transform: uppercase
+
+.big
+  h1
+    font-size: 50px
+    +respond-to(480)
+      font-size: 40px
+  span
+    font-size: 30px
+    +respond-to(480)
+      font-size: 26px
+
+.w-red
+  width: 664px
+  font-family: $semi
+  font-size: 20px
+  font-weight: 400
+  text-transform: uppercase
+  color: $textDefualt
+  +respond-to(725)
+    width: 100%
+  span
+    color: #e31e25
+
+.icons
+  width: 100%
+  &__icon
+    width: 72px
+    height: 72px
+    background-position: center center
+    background-repeat: no-repeat
+
+.span-upr
+  span
+    display: inline-block
+    color: #1f1b20
+    font-family: $reg
+    font-size: 18px
+    font-weight: 400
+    text-transform: uppercase
+    padding-bottom: 26px
+    +respond-to(480)
+      font-size: 16px
+
+.strong-desc
+  strong
+    color: $textDefualt
+    font-family: $semi
+    font-size: 18px
+    font-weight: 600
+  span
+    color: $red
+    font-family: $reg
+    font-weight: 700
+
+.red-h3 > h3
+  color: $red
+
+.paragraf_pdg > p
+  color: $textDefualt
+  font-family: $reg
+  font-size: 18px
+  font-weight: 400
+  padding-bottom: 15px
+
+.image-full
+  width: 100%
+  img
+    width: 100%
+
+.center
+  h3
+    text-align: center
+  strong
+    text-align: center
+  span
+    text-align: center
+  p
+    text-align: center
+
+.strong-cent
+  width: 100%
+
+.strong-cent > strong
+  display: inline-block
+  width: proc(579,1170)
+  position: relative
+  color: $textDefualt
+  font-family: $semi
+  font-size: 18px
+  font-weight: 400
+  left: 50%
+  transform: translateX(-50%)
+  +respond-to(660)
+    width: 80%
+  +respond-to(480)
+    width: 100%
+
+.calling__subtitle
+  color: $red
+  font-family: $semi
+  font-size: 25px
+  font-weight: 600
+  text-transform: uppercase
+
+.border-big
+  height: 545px
+
+//TODO: new styles
+.black
+  width: 90%
+  +respond-to(480)
+    width: 100%
+  h1
+    color: $textDefualt
+    font-size: 50px
+    +respond-to(800)
+      font-size: 30px
+    +respond-to(447)
+      font-size: 24px
+  span
+    color: $textDefualt
+    font-size: 30px
+    +respond-to(800)
+      font-size: 20px
+
+.normal-font > span
+  text-transform: inherit !important
+
+.text-p > p
+  color: $textDefualt
+  font-family: $reg
+  font-size: 18px
+  font-weight: 400
+  padding-top: 36px
+
+.icon-list
+  ul
+    display: block
+    font-family: $reg
+    font-size: 18px
+    color: $textDefualt
+    li
+      display: block
+      margin: 13px 0
+      position: relative
+      padding-left: 25px
+      &:before
+        content: ""
+        width: 16px
+        height: 16px
+        background: url(../img/rounded_rectangle.png)
+        position: absolute
+        top: 4px
+        left: 0
+
+.right-container
+  width: 50%
+  display: inline-block
+  transform: translateX(100%)
+  +respond-to(992)
+    width: 100%
+    transform: none
+
+.left-background
+  width: 47vw
+  height: 100%
+  position: absolute
+  top: 0
+  left: 0
+  +respond-to(992)
+    display: none
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.double-list > ul
+  column-count: 2
+  column-gap: 50px
+  +respond-to(992)
+    column-count: 1
+    column-gap: 0
+

@@ -1,0 +1,32 @@
+extends libs/layout
+
+block title
+    title Template v3.5
+
+block content
+    //header
+    include static/header
+
+    //truck top banner
+    include includes/trucklog/topbanner
+    //truck proposal
+    include includes/trucklog/proposal
+    //sensor door
+    include includes/trucklog/sensor_door
+    //sensor control
+    include includes/trucklog/sensor_control
+    //motor block
+    include includes/trucklog/motor_block
+    //axle load sensor
+    include includes/trucklog/axle
+    //press
+    include includes/trucklog/press
+    //emulator
+    include includes/trucklog/emulator
+    //calling
+    include includes/trucklog/call_block
+
+    //footer
+    include static/footer
+
+

@@ -1,0 +1,80 @@
+.agronav
+  padding-top: 150px
+  background-repeat: no-repeat
+  background-position: right top
+  object-fit: cover
+  &__wrapper
+    width: 100%
+    &:after
+      content: ""
+      width: 847px
+      height: 645px
+      background: url(../img/selhoz_background.jpg) no-repeat left center
+      background-size: cover
+      object-fit: cover
+      position: absolute
+      right: -475px
+      top: 0
+      z-index: -1
+      +respond-to(1096)
+        display: none
+  &__img-object
+    display: inline-block
+    opacity: 0.99
+    img
+      position: relative
+      transform: translate(60%,55%)
+      +respond-to(1440)
+        transform: translate(35%,55%)
+      +respond-to(1369)
+        transform: translate(25%,55%)
+      +respond-to(1258)
+        transform: translate(15%,55%)
+      +respond-to(1096)
+        transform: none
+      +respond-to(480)
+        width: 100%
+  &__item
+    +respond-to(594)
+      margin-bottom: 20px
+
+
+  &__description
+    padding-top: 33px
+  &__plus
+    margin-top: 68px
+    &-title
+      color: $textDefualt
+      font-family: $semi
+      font-size: 17px
+      font-weight: 400
+      line-height: 24px
+      text-transform: uppercase
+    &-items
+      margin-top: 42px
+  &__img
+    width: 98px
+    height: 98px
+    margin: 0 auto
+  &__txt
+    text-align: center
+    color: $textDefualt
+    font-family: $reg
+    font-size: 18px
+    font-weight: 400
+    line-height: 24px
+    padding-top: 26px
+  &__price
+    padding-top: 80px
+    padding-bottom: 36px
+
+.an-img1
+  +background('around_the_clock_icon.png')
+
+.an-img2
+  +background('economy_icon.png')
+
+.an-txt1
+  width: 215px
+.an-txt2
+  width: 350px

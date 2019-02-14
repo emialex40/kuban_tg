@@ -1,0 +1,105 @@
+.contacts
+  &__form-title
+    color: $bordDark
+    font-family: $semi
+    font-size: 17px
+    font-weight: 400
+    text-transform: uppercase
+    text-align: center
+  &__form-text
+    color: $textMenu
+    font-family: $semi
+    font-size: 17px
+    font-weight: 400
+    text-align: center
+    padding-top: 20px
+    padding-bottom: 32px
+  &__form-fill
+    width: 100%
+    color: $textMenu
+    font-family: $semi
+    font-size: 17px
+    font-weight: 400
+    line-height: 30px
+    text-align: center
+    border-bottom: 1px dashed $textMenu
+  &__form
+    margin-top: 34px
+    margin-bottom: 98px
+    &-left
+      width: 47%
+      +respond-to(620)
+        width: 100%
+    &-right
+      width: 47%
+      +respond-to(620)
+        width: 100%
+  &__field-box
+    width: 100%
+    margin-bottom: 31px
+    color: #bbbdc3
+  &__input
+    width: 100%
+    height: 64px
+    border-radius: 5px
+    border: 1px solid #bbbdc3
+    box-sizing: border-box
+    padding: 5px 10px
+    color: #bbbdc3
+    font-family: $semi
+    font-size: 18px
+    font-weight: 400
+    &::placeholder
+      color: #bbbdc3
+  &__textarea
+    width: 100%
+    height: 254px
+    textarea
+      width: 100%
+      height: 100%
+      border-radius: 5px
+      border: 1px solid #bbbdc3
+      color: #bbbdc3
+      font-family: $semi
+      font-size: 18px
+      font-weight: 400
+      padding: 10px
+      box-sizing: border-box
+      resize: none
+      &::placeholder
+        color: #bbbdc3
+  &__submit-box
+    display: inline-block
+    width: 440px
+    height: 90px
+    position: relative
+    left: 50%
+    transform: translateX(-50%)
+    margin-top: 6px
+    +respond-to(620)
+      margin-top: 40px
+    +respond-to(480)
+      width: 290px
+      height: 60px
+  &__submit
+    width: 100%
+    height: 100%
+    border-radius: 5px
+    border: 3px solid $bordDark
+    background-color: $white
+    cursor: pointer
+    transition: .5s ease-in-out
+    color: $bordDark
+    font-family: $reg
+    font-size: 30px
+    font-weight: 400
+    text-transform: uppercase
+    +respond-to(480)
+      font-size: 18px
+    &:hover
+      background-color: $bordDark
+      transition: .5s ease-in-out
+      color: $white
+
+
+

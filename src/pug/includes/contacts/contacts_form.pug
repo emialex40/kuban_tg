@@ -1,0 +1,24 @@
+.contacts__form-wrapper
+    h3.contacts__form-title Вы также можете оставить заявку
+    .contacts__form-text
+        p.
+            На просчет Вашего решения.<br>
+            Будем рады помочь в решении даже очень сложного вопроса
+    .contacts__form-fill
+        p Заполните поля ниже, и наш менеджер свяжется с вами!
+    .contacts__form
+        form#form(method="post")
+            .contacts__form-flex.row.just-between
+                .contacts__form-left
+                    .contacts__field-box
+                        input.contacts__input(type="text", name="name", placeholder="Ваше имя")
+                    .contacts__field-box
+                        input.contacts__input(type="email", name="email", placeholder="Ваш e-mail")
+                    .contacts__field-box
+                        input.contacts__input(type="text", name="theme", placeholder="Тема")
+                .contacts__form-right
+                    .contacts__textarea
+                        textarea(name="message", placeholder="Ваше сообщение")
+            .contacts__submit-box
+                input.contacts__submit(type="submit", value="отправить Заявку")
+

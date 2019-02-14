@@ -1,0 +1,40 @@
+section.contacts
+    .container
+        .container-min
+            .contacts__top-wrapper.row.just-between
+                .contacts__left
+                    .contacts__data
+                        h4.contacts__title наш адрес
+                        .contacts__info
+                            p.
+                                344012 г. Ростов-на-Дону<br>
+                                ул. Ивановского 38\63 оф. 603-1И
+                .contacts__right
+                    .contacts__data
+                        h4.contacts__title график работы
+                        .contacts__info
+                            p.
+                                с 8-00 до 17-00<br>
+                                сб св выходные
+            .contacts__map
+                p.
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6a542381d69e1c09732a727cbda633de495035b93dc7efa12282d4380fe625ae&amp;source=constructor" width="100%" height="287" frameborder="0"></iframe>
+            .contacts__bottom-wrapper.row.just-between
+                .contacts__left
+                    .contacts__data
+                        h4.contacts__title позвоните нам
+                        .contacts__info
+                            p.
+                                Есть вопросы? Мы вам поможем!
+                            a(href="tel:88632562233") Тел.: 8 (863) 256-22-33
+                    .contacts__button
+                        a.contacts__btn(href="#") позвонить с сайта
+                .contacts__right
+                    .contacts__data
+                        h4.contacts__title напишите нам
+                        .contacts__info
+                            p.
+                                Мы проконсультируем и поможем<br> сориентироваться в ценах
+                            a(href="mailto:office@kat.group") E-mail: office@kat.group
+            //contact form
+            include ../contacts/contacts_form
