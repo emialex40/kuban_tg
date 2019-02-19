@@ -528,4 +528,83 @@
   +respond-to(992)
     column-count: 1
     column-gap: 0
+.bottom-line
+  border-bottom: 1px solid $grey
+  padding-bottom: 5px
 
+.calling-top__title
+  text-align: center
+  font-family: $reg
+  color: $textDefualt
+  text-transform: uppercase
+  margin-bottom: 80px
+  h4
+    font-size: 25px
+    padding-bottom: 10px
+  span
+    font-size: 18px
+
+/* == new styles ==*/
+.h3-low > h3
+  color: $textDefualt
+  font-family: $semi
+  font-size: 28px
+  font-weight: 400
+  +respond-to(480)
+    font-size: 22px
+.item_row
+  flex-direction: row
+  align-items: flex-end
+  +respond-to(480)
+    flex-direction: column
+    align-items: center
+.item_column
+  flex-direction: column
+  align-items: flex-start
+.item
+  width: 47%
+  min-width: 300px
+  display: flex
+  justify-content: space-between
+  margin-bottom: 78px
+  &__text
+    font-family: $reg
+    font-size: 20px
+    color: $textDefualt
+    padding-left: 24px
+    +respond-to(480)
+      font-size: 16px
+      margin-top: 30px
+  &__title >
+    font-family: $reg
+    font-size: 18px
+    strong
+      color: $textDefualt
+      text-transform: uppercase
+      span
+        color: $red
+  &__txt
+    font-family: $reg
+    font-size: 18px
+    padding-top: 15px
+    +respond-to(480)
+      font-size: 16px
+    span
+      color: $textDefualt
+  &__img
+    display: inline-block
+    align-self: center
+    margin-top: 33px
+  &__price
+    margin-top: 34px
+
+.strong-big
+  padding-bottom: 78px
+  strong
+    font-size: 20px
+    line-height: 1.6
+    span
+      text-transform: uppercase
+
+.yellow-bg
+  background-color: $yellow
