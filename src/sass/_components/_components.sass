@@ -453,7 +453,6 @@
 .border-big
   height: 545px
 
-//TODO: new styles
 .black
   width: 90%
   +respond-to(480)
@@ -608,3 +607,52 @@
 
 .yellow-bg
   background-color: $yellow
+
+  /* new styles */
+
+.red-strong > strong
+  font-family: $semi
+  font-size: 18px
+  color: $red
+  text-transform: uppercase
+  font-weight: 400
+
+.list-red > ul > li > span
+  color: $red
+  font-family: $semi
+  font-weight: 600
+
+.icon-item
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: flex-start
+  margin-bottom: 20px
+  &__icon
+    margin-top: 6px
+  &__text-block
+    padding-left: 18px
+    font-size: 18px
+    color: $textDefualt
+    strong
+      font-weight: 600
+      text-transform: uppercase
+      font-family: $semi
+      display: block
+    span
+      font-family: $reg
+      font-weight: 400
+
+.uppercase
+  color: $textDefualt
+  font-family: $textDefualt
+  font-size: 18px
+  font-weight: 400
+
+.uppercase > strong
+  text-transform: uppercase
+  padding-bottom: 15px
+
+.uppercase > span
+  font-weight: 600
+
