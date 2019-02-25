@@ -2568,6 +2568,219 @@ section {
 .dogs-func__price {
   margin-top: 78px; }
 
+/*=====================================*/
+/*=========gps trecker styles ============*/
+/*=====================================*/
+.tacho {
+  padding-top: 147px; }
+  .tacho__wrapper {
+    width: 100%; }
+  .tacho__top-text {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1f1b20; }
+    .tacho__top-text strong {
+      font-family: "OpenSansSemibold", sans-serif;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase; }
+  .tacho__row {
+    margin-top: 30px; }
+  .tacho__img {
+    width: 40%;
+    min-width: 300px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media only screen and (max-width: 920px) {
+      .tacho__img img {
+        width: 100%; } }
+  .tacho__text-block {
+    width: 55%;
+    min-width: 300px; }
+    @media only screen and (max-width: 696px) {
+      .tacho__text-block {
+        width: 100%;
+        padding-top: 30px; } }
+  .tacho__txt {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400; }
+  .tacho__bottom-text {
+    margin-top: 30px;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400; }
+    .tacho__bottom-text span {
+      color: #e31e25;
+      font-weight: 600;
+      font-size: 20px; }
+    .tacho__bottom-text strong {
+      font-weight: 600;
+      font-size: 20px; }
+  .tacho__penalty {
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 800px;
+    min-width: 300px; }
+    @media only screen and (max-width: 655px) {
+      .tacho__penalty {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+  .tacho__penalty-icon {
+    display: inline-block;
+    width: 157px;
+    height: 78px;
+    background: url(../img/Fine_Stamp.png) no-repeat center center; }
+    @media only screen and (max-width: 655px) {
+      .tacho__penalty-icon {
+        margin-bottom: 30px; } }
+  .tacho__driver, .tacho__org {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400; }
+    @media only screen and (max-width: 655px) {
+      .tacho__driver, .tacho__org {
+        width: 100%;
+        margin-bottom: 30px;
+        text-align: center; } }
+    .tacho__driver strong, .tacho__org strong {
+      font-family: "OpenSansSemibold", sans-serif;
+      font-weight: 600; }
+  .tacho__order {
+    margin-top: 30px;
+    padding-bottom: 78px; }
+
+/*========= tacho service styles ============*/
+.tacho-service {
+  padding-top: 150px;
+  padding-bottom: 80px; }
+  .tacho-service__text {
+    margin-top: 40px; }
+  .tacho-service__adv {
+    margin-top: 60px; }
+  .tacho-service__flex {
+    margin-top: 40px; }
+  .tacho-service__item {
+    width: 47%;
+    min-width: 300px; }
+    @media only screen and (max-width: 629px) {
+      .tacho-service__item {
+        width: 100%; } }
+  .tacho-service__object {
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px; }
+    .tacho-service__object:before {
+      content: "";
+      width: 46px;
+      height: 46px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url(../img/gear_wheel_icon.png) no-repeat; }
+  .tacho-service__info {
+    padding-left: 60px; }
+  .tacho-service__info-text {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1f1b20; }
+    .tacho-service__info-text span {
+      color: #e31e25;
+      font-family: "OpenSansSemibold", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .tacho-service__info-text strong {
+      font-family: "OpenSansSemibold", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      display: block; }
+    .tacho-service__info-text ul li {
+      position: relative;
+      padding-left: 15px; }
+      .tacho-service__info-text ul li:before {
+        width: 26px;
+        height: 26px;
+        content: ".";
+        font-size: 50px;
+        color: #878787;
+        display: block;
+        position: absolute;
+        left: 0;
+        top: -35px; }
+  .tacho-service__bottom {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 16px;
+    color: #1f1b20;
+    font-weight: 400;
+    margin-bottom: 30px; }
+  .tacho-service__rules {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400; }
+    .tacho-service__rules h4 {
+      font-family: "OpenSansSemibold", sans-serif;
+      font-weight: 600;
+      padding-bottom: 25px; }
+    .tacho-service__rules strong {
+      font-family: "OpenSansSemibold", sans-serif;
+      font-weight: 600; }
+    .tacho-service__rules ul {
+      padding: 20px 0;
+      display: block;
+      list-style-type: disc;
+      padding-left: 30px; }
+      .tacho-service__rules ul li {
+        display: list-item;
+        padding: 5px 0; }
+    .tacho-service__rules p {
+      padding-top: 5px; }
+  .tacho-service__rul-obj {
+    margin-bottom: 30px; }
+  .tacho-service__waranty, .tacho-service__specialists {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400;
+    margin-top: 63px; }
+  .tacho-service__specialists {
+    margin-top: 35px; }
+    .tacho-service__specialists p {
+      padding-bottom: 15px; }
+  .tacho-service__hide {
+    display: none; }
+
 /*~~~~~~~~~~~~~ end pages ~~~~~~~~~~~~~*/
 /*=================================================*/
 /*=============== components =======================*/
@@ -3279,8 +3492,7 @@ section {
       text-transform: uppercase; }
 
 .yellow-bg {
-  background-color: #fddb00;
-  /* new styles */ }
+  background-color: #fddb00; }
 
 .red-strong > strong {
   font-family: "OpenSansSemibold", sans-serif;
@@ -3340,3 +3552,14 @@ section {
 
 .uppercase > span {
   font-weight: 600; }
+
+/* new styles */
+.inside-text {
+  max-width: 900px; }
+  .inside-text p {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400; }
+    .inside-text p strong {
+      text-transform: uppercase; }
