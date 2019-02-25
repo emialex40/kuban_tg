@@ -1,0 +1,83 @@
+.tacho
+  padding-top: 147px
+  &__wrapper
+    width: 100%
+  &__top-text
+    font-family: $reg
+    font-size: 18px
+    font-weight: 400
+    color: $textDefualt
+    strong
+      font-family: $semi
+      font-size: 20px
+      font-weight: 600
+      text-transform: uppercase
+  &__row
+    margin-top: 30px
+  &__img
+    width: 40%
+    min-width: 300px
+    display: flex
+    justify-content: center
+    align-items: center
+    img
+      +respond-to(920)
+        width: 100%
+  &__text-block
+    width: 55%
+    min-width: 300px
+    +respond-to(696)
+      width: 100%
+      padding-top: 30px
+  &__txt
+    font-family: $reg
+    font-size: 18px
+    color: $textDefualt
+    font-weight: 400
+  &__bottom-text
+    margin-top: 30px
+    font-family: $reg
+    font-size: 18px
+    color: $textDefualt
+    font-weight: 400
+    span
+      color: $red
+      font-weight: 600
+      font-size: 20px
+    strong
+      font-weight: 600
+      font-size: 20px
+  &__penalty
+    margin-top: 30px
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    max-width: 800px
+    min-width: 300px
+    +respond-to(655)
+      justify-content: center
+      align-items: center
+  &__penalty-icon
+    display: inline-block
+    width: 157px
+    height: 78px
+    background: url(../img/Fine_Stamp.png) no-repeat center center
+    +respond-to(655)
+      margin-bottom: 30px
+  &__driver
+    font-family: $reg
+    font-size: 18px
+    color: $textDefualt
+    font-weight: 400
+    +respond-to(655)
+      width: 100%
+      margin-bottom: 30px
+      text-align: center
+    strong
+      font-family: $semi
+      font-weight: 600
+  &__org
+    @extend .tacho__driver
+  &__order
+    margin-top: 30px
+    padding-bottom: 78px
