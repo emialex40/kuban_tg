@@ -885,7 +885,7 @@
         if (_.$slides) {
 
             _.$slides
-                .removeClass('slick-slide slick-active slick-center slick-visible slick-current')
+                .removeClass('slick-slide slick-active slick-_center slick-visible slick-current')
                 .removeAttr('aria-hidden')
                 .removeAttr('data-slick-index')
                 .each(function(){
@@ -2320,7 +2320,7 @@
 
         allSlides = _.$slider
             .find('.slick-slide')
-            .removeClass('slick-active slick-center slick-current')
+            .removeClass('slick-active slick-_center slick-current')
             .attr('aria-hidden', 'true');
 
         _.$slides
@@ -2355,13 +2355,13 @@
 
                     allSlides
                         .eq(allSlides.length - 1 - _.options.slidesToShow)
-                        .addClass('slick-center');
+                        .addClass('slick-_center');
 
                 } else if (index === _.slideCount - 1) {
 
                     allSlides
                         .eq(_.options.slidesToShow)
-                        .addClass('slick-center');
+                        .addClass('slick-_center');
 
                 }
 
@@ -2369,7 +2369,7 @@
 
             _.$slides
                 .eq(index)
-                .addClass('slick-center');
+                .addClass('slick-_center');
 
         } else {
 

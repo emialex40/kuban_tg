@@ -1,0 +1,24 @@
+section.card-form
+  .container
+    .card-form__wrapper
+      .card-form__title.red
+        h4 Вы также можете оставить заявку
+      .card-form__text
+        strong.
+          И мы поможем вам в ближайшее время.<br>
+          Бесплатно проконсультируем по услуге. Ответим на все интересующие вас вопросы.
+      .card-form__form
+        form#form(method="post")
+          .contacts__form-flex.row.just-between
+            .contacts__form-left
+              .contacts__field-box
+                input.contacts__input(type="text", name="name", placeholder="Ваше имя")
+              .contacts__field-box
+                input.contacts__input(type="email", name="email", placeholder="Ваш e-mail")
+              .contacts__field-box
+                input.contacts__input(type="text", name="theme", placeholder="Тема")
+              .contacts__submit-box
+                input.contacts__submit(type="submit", value="отправить Заявку")
+            .contacts__form-right
+              .contacts__textarea
+                textarea(name="message", placeholder="Ваше сообщение")

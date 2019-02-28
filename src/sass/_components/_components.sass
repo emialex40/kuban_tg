@@ -654,7 +654,6 @@
 .uppercase > span
   font-weight: 600
 
-/* new styles */
 .inside-text
   max-width: 900px
   p
@@ -664,6 +663,147 @@
     font-weight: 400
     strong
       text-transform: uppercase
+
+/* new styles */
+
+.left-flex
+  width: 100%
+  &__item-left
+    width: 55%
+    min-width: 300px
+  &__item-right
+    width: 40%
+    display: flex
+    justify-content: center
+    align-items: center
+    img
+      width: 100%
+      object-fit: cover
+.red
+  color: #e31e25
+.title-size
+  font-family: $semi
+  font-size: 20px
+  font-weight: 600
+
+.table
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: center
+  &__col
+    width: 47%
+    font-family: $reg
+    padding: 8px 0
+    p
+      font-size: 16px
+  &__right
+    span
+      font-family: $semi
+      font-size: 20px
+      color: $red
+      font-weight: 600
+
+.start
+  justify-content: flex-start
+
+.call-icon
+  font-family: $semi
+  font-size: 16px
+  font-weight: 400
+  position: relative
+  a
+    text-transform: lowercase
+    color: $red
+    text-decoration: underline
+    line-height: 48px
+    padding-left: 58px
+    transition: .5s ease-in-out
+    &:before
+      content: ""
+      width: 48px
+      height: 48px
+      position: absolute
+      top: 0
+      left: 0
+      background: url(../img/widget.png) no-repeat
+    &:hover
+      opacity: .8
+      transition: .5s ease-in-out
+.left
+  width: 70%
+  +respond-to(920)
+    width: 100%
+
+.text-block
+  p
+    font-family: $reg
+    font-size: 18px
+    font-weight: 400
+    color: $textDefualt
+    padding-bottom: 15px
+    strong
+      font-family: $semi
+      font-weight: 600
+    span
+      color: $red
+
+.red-span > h4 > span
+  color: $red
+
+.right-flex
+  width: 100%
+  margin-bottom: 20px
+  &__item-right
+    width: 55%
+    min-width: 300px
+  &__item-left
+    width: 40%
+    display: flex
+    justify-content: center
+    align-items: center
+    img
+      width: 100%
+      object-fit: cover
+.up
+  text-transform: uppercase
+
+.img-nonwidth
+  background-size: contain
+  background-position: center bottom
+
+.red-list > ul > li > span
+  color: $red
+
+.table-style
+  margin-bottom: 70px
+  table
+    width: 100%
+    tr
+      text-align: left
+      th
+        font-family: $semi
+        font-size: 18px
+        font-weight: 600
+        color: $textDefualt
+        text-transform: uppercase
+        padding: 5px 0
+        border-bottom: 1px solid $grey
+        border-collapse: collapse
+        border-spacing: 0
+      td
+        font-family: $reg
+        font-size: 18px
+        color: $textDefualt
+        font-weight: 400
+        padding: 5px 0
+
+.img-center
+  display: flex
+  justify-content: center
+  align-items: flex-end
+
 
 
 

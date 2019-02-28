@@ -2781,6 +2781,310 @@ section {
   .tacho-service__hide {
     display: none; }
 
+/*=====================================*/
+/*=========_card driver styles ============*/
+/*=====================================*/
+.special {
+  padding-top: 147px; }
+  .special__text {
+    margin-top: 20px; }
+    .special__text p {
+      font-family: "OpenSansRegular", sans-serif;
+      font-size: 18px;
+      color: #1f1b20;
+      font-weight: 400;
+      padding-bottom: 20px; }
+  .special__txt {
+    padding-bottom: 30px; }
+    .special__txt p {
+      font-family: "OpenSansRegular", sans-serif;
+      font-size: 18px;
+      color: #1f1b20;
+      font-weight: 400;
+      padding-bottom: 20px; }
+
+/*========= price card styles ==========*/
+.card-price {
+  padding-top: 80px;
+  padding-bottom: 40px; }
+  .card-price__title {
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 22px;
+    color: #1f1b20;
+    font-weight: 600;
+    padding-bottom: 12px; }
+
+/*========= registration styles ========*/
+.registr {
+  padding-top: 82px; }
+  .registr__content {
+    margin-top: 40px; }
+  .registr__item {
+    width: 47%; }
+
+/*========= complex section ============*/
+.complex {
+  padding-top: 100px; }
+  .complex__header {
+    margin-bottom: 20px; }
+  .complex__group > ul > li {
+    display: block !important; }
+  .complex__call {
+    margin-top: 48px; }
+
+/*======== card form styles ===========*/
+.card-form {
+  padding-top: 50px;
+  padding-bottom: 85px; }
+  .card-form__wrapper {
+    width: 80%; }
+    @media only screen and (max-width: 920px) {
+      .card-form__wrapper {
+        width: 100%; } }
+  .card-form__title {
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 20px; }
+  .card-form__text {
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #292a37; }
+  .card-form__form {
+    margin-top: 35px; }
+
+/*======== process styles ============*/
+.process {
+  padding-top: 150px;
+  padding-bottom: 80px; }
+  .process__header {
+    font-size: 20px;
+    color: #1f1b20; }
+    .process__header h3 {
+      font-family: "OpenSansSemibold", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase; }
+      .process__header h3 span {
+        font-family: "OpenSansRegular", sans-serif;
+        text-transform: lowercase;
+        font-weight: 400; }
+
+/*======== drivers styles ===========*/
+.drivers {
+  padding-top: 145px; }
+  .drivers__text {
+    margin-top: 32px; }
+  .drivers__row {
+    margin-bottom: 36px; }
+  .drivers__row-text {
+    margin-top: 22px; }
+    .drivers__row-text p {
+      font-family: "OpenSansRegular", sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      color: #1f1b20;
+      padding-bottom: 20px; }
+    .drivers__row-text ul {
+      display: block;
+      list-style-type: disc;
+      padding-left: 20px; }
+      .drivers__row-text ul li {
+        display: list-item;
+        font-family: "OpenSansRegular", sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: #1f1b20;
+        padding-bottom: 15px; }
+
+/*======== enterprises styles*/
+.enterprise {
+  padding-top: 57px; }
+  .enterprise__text {
+    margin-top: 32px; }
+  .enterprise__bottom {
+    margin-top: 57px; }
+
+/*=====================================*/
+/*========= service _center styles ============*/
+/*=====================================*/
+.serv-center {
+  padding-top: 144px; }
+  .serv-center__title {
+    font-size: 22px;
+    color: #1f1b20;
+    margin-top: 35px; }
+    .serv-center__title h4 {
+      font-family: "OpenSansSemibold", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .serv-center__title span {
+      font-family: "OpenSansRegular", sans-serif;
+      font-weight: 400; }
+  .serv-center__bottom {
+    margin-top: 30px;
+    position: relative; }
+
+/*========= proposal styles ==============*/
+.prop {
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  .prop__subheader {
+    padding-top: 30px; }
+  .prop__list {
+    margin-top: 67px; }
+  .prop__obj h4 {
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .prop__item1 {
+    width: 55%;
+    min-width: 300px; }
+  .prop__item2 {
+    width: 40%;
+    min-width: 300px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .prop__item2 img {
+      object-fit: cover; }
+      @media only screen and (max-width: 480px) {
+        .prop__item2 img {
+          width: 100%; } }
+  .prop__price {
+    margin-top: 30px; }
+
+/*========== instal styles ==============*/
+.install {
+  position: relative; }
+  .install__text {
+    margin-top: 33px; }
+  .install__list-title {
+    margin-top: 78px; }
+  .install__list ul li {
+    display: block !important; }
+
+/*=========== construct styles ===========*/
+.construct {
+  padding-top: 80px; }
+
+/*=========== table styles ===========*/
+.center-table {
+  margin-top: 75px; }
+
+/*========== planar styles ============*/
+.planar {
+  padding-top: 45px; }
+  .planar__item {
+    width: 47%;
+    min-width: 300px; }
+  .planar__img {
+    height: 300px; }
+    .planar__img img {
+      object-fit: cover; }
+  .planar__info {
+    margin-top: 68px; }
+  .planar__title h4 {
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1f1b20;
+    text-transform: uppercase; }
+
+/*========= alarm styles* =============/ */
+.alarm {
+  padding-top: 144px; }
+  .alarm__text {
+    padding-top: 32px; }
+  .alarm__list-block {
+    margin-top: 78px; }
+  .alarm__item1 {
+    width: 55%;
+    min-width: 300px; }
+  .alarm__item2 {
+    width: 40%; }
+  .alarm__txt {
+    padding-top: 33px;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400; }
+  .alarm__img {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .alarm__img img {
+      object-fit: cover; }
+
+/*========== set styles ============*/
+.center-set {
+  margin-top: 146px; }
+  .center-set__top {
+    position: relative; }
+  .center-set__top > .left-background {
+    height: 135%; }
+  .center-set__title {
+    margin-bottom: 37px; }
+  .center-set__red-title {
+    margin-bottom: 25px; }
+  .center-set__bottom {
+    padding-top: 33px; }
+
+/*============ solution styles ===========*/
+.solution {
+  padding-top: 74px; }
+  .solution__container {
+    margin-top: 38px; }
+  .solution__item {
+    width: 220px; }
+  .solution__icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .solution__text {
+    text-align: center;
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    font-weight: 400;
+    padding-top: 15px; }
+  .solution__bottom {
+    margin-top: 78px; }
+
+.center-call > span {
+  display: inline-block;
+  padding-top: 20px; }
+
 /*~~~~~~~~~~~~~ end pages ~~~~~~~~~~~~~*/
 /*=================================================*/
 /*=============== components =======================*/
@@ -3553,7 +3857,6 @@ section {
 .uppercase > span {
   font-weight: 600; }
 
-/* new styles */
 .inside-text {
   max-width: 900px; }
   .inside-text p {
@@ -3563,3 +3866,188 @@ section {
     font-weight: 400; }
     .inside-text p strong {
       text-transform: uppercase; }
+
+/* new styles */
+.left-flex {
+  width: 100%; }
+  .left-flex__item-left {
+    width: 55%;
+    min-width: 300px; }
+  .left-flex__item-right {
+    width: 40%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .left-flex__item-right img {
+      width: 100%;
+      object-fit: cover; }
+
+.red {
+  color: #e31e25; }
+
+.title-size {
+  font-family: "OpenSansSemibold", sans-serif;
+  font-size: 20px;
+  font-weight: 600; }
+
+.table {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .table__col {
+    width: 47%;
+    font-family: "OpenSansRegular", sans-serif;
+    padding: 8px 0; }
+    .table__col p {
+      font-size: 16px; }
+  .table__right span {
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 20px;
+    color: #e31e25;
+    font-weight: 600; }
+
+.start {
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
+.call-icon {
+  font-family: "OpenSansSemibold", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative; }
+  .call-icon a {
+    text-transform: lowercase;
+    color: #e31e25;
+    text-decoration: underline;
+    line-height: 48px;
+    padding-left: 58px;
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out; }
+    .call-icon a:before {
+      content: "";
+      width: 48px;
+      height: 48px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url(../img/widget.png) no-repeat; }
+    .call-icon a:hover {
+      opacity: .8;
+      -webkit-transition: .5s ease-in-out;
+      transition: .5s ease-in-out; }
+
+.left {
+  width: 70%; }
+  @media only screen and (max-width: 920px) {
+    .left {
+      width: 100%; } }
+
+.text-block p {
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1f1b20;
+  padding-bottom: 15px; }
+  .text-block p strong {
+    font-family: "OpenSansSemibold", sans-serif;
+    font-weight: 600; }
+  .text-block p span {
+    color: #e31e25; }
+
+.red-span > h4 > span {
+  color: #e31e25; }
+
+.right-flex {
+  width: 100%;
+  margin-bottom: 20px; }
+  .right-flex__item-right {
+    width: 55%;
+    min-width: 300px; }
+  .right-flex__item-left {
+    width: 40%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .right-flex__item-left img {
+      width: 100%;
+      object-fit: cover; }
+
+.up {
+  text-transform: uppercase; }
+
+.img-nonwidth {
+  background-size: contain;
+  background-position: center bottom; }
+
+.red-list > ul > li > span {
+  color: #e31e25; }
+
+.table-style {
+  margin-bottom: 70px; }
+  .table-style table {
+    width: 100%; }
+    .table-style table tr {
+      text-align: left; }
+      .table-style table tr th {
+        font-family: "OpenSansSemibold", sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #1f1b20;
+        text-transform: uppercase;
+        padding: 5px 0;
+        border-bottom: 1px solid #929ca5;
+        border-collapse: collapse;
+        border-spacing: 0; }
+      .table-style table tr td {
+        font-family: "OpenSansRegular", sans-serif;
+        font-size: 18px;
+        color: #1f1b20;
+        font-weight: 400;
+        padding: 5px 0; }
+
+.img-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
