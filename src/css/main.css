@@ -2820,7 +2820,11 @@ section {
   .registr__content {
     margin-top: 40px; }
   .registr__item {
-    width: 47%; }
+    width: 47%;
+    min-width: 300px; }
+    @media only screen and (max-width: 480px) {
+      .registr__item {
+        width: 100%; } }
 
 /*========= complex section ============*/
 .complex {
@@ -3061,7 +3065,8 @@ section {
   .solution__container {
     margin-top: 38px; }
   .solution__item {
-    width: 220px; }
+    width: 220px;
+    margin-bottom: 20px; }
   .solution__icon {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3873,6 +3878,9 @@ section {
   .left-flex__item-left {
     width: 55%;
     min-width: 300px; }
+    @media only screen and (max-width: 529px) {
+      .left-flex__item-left {
+        width: 100%; } }
   .left-flex__item-right {
     width: 40%;
     display: -webkit-box;
@@ -3887,6 +3895,9 @@ section {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+    @media only screen and (max-width: 529px) {
+      .left-flex__item-right {
+        width: 100%; } }
     .left-flex__item-right img {
       width: 100%;
       object-fit: cover; }
@@ -3987,6 +3998,9 @@ section {
   .right-flex__item-right {
     width: 55%;
     min-width: 300px; }
+    @media only screen and (max-width: 529px) {
+      .right-flex__item-right {
+        width: 100%; } }
   .right-flex__item-left {
     width: 40%;
     display: -webkit-box;
@@ -4001,6 +4015,10 @@ section {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center; }
+    @media only screen and (max-width: 529px) {
+      .right-flex__item-left {
+        width: 100%;
+        margin-bottom: 30px; } }
     .right-flex__item-left img {
       width: 100%;
       object-fit: cover; }
@@ -4016,9 +4034,12 @@ section {
   color: #e31e25; }
 
 .table-style {
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  width: 100%;
+  overflow-x: auto; }
   .table-style table {
-    width: 100%; }
+    width: 100%;
+    min-width: 693px; }
     .table-style table tr {
       text-align: left; }
       .table-style table tr th {
@@ -4051,3 +4072,11 @@ section {
   -webkit-align-items: flex-end;
       -ms-flex-align: end;
           align-items: flex-end; }
+
+@media only screen and (max-width: 620px) {
+  .contacts__submit-box {
+    margin-bottom: 40px; } }
+
+@media only screen and (max-width: 480px) {
+  .border-min {
+    height: 80px; } }
