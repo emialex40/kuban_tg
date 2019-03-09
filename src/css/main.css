@@ -3090,6 +3090,95 @@ section {
   display: inline-block;
   padding-top: 20px; }
 
+/*=====================================*/
+/*========= usb page styles ============*/
+/*=====================================*/
+.usb-socket {
+  padding-top: 150px; }
+  .usb-socket__subheader {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 22px;
+    color: #1f1b20; }
+  .usb-socket__subheader > strong > span {
+    color: #e31e25; }
+  .usb-socket__wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: 35px; }
+  .usb-socket__text p {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20;
+    padding-bottom: 15px; }
+  .usb-socket__bottom {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20; }
+    .usb-socket__bottom p {
+      padding-bottom: 15px; }
+      .usb-socket__bottom p strong {
+        font-family: "OpenSansSemibold", sans-serif;
+        text-transform: uppercase; }
+
+/*========== usb profit styles ============*/
+.usb-profit {
+  margin-top: 80px; }
+  .usb-profit__small-list p {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20; }
+  .usb-profit__small-list ul {
+    padding-bottom: 20px; }
+
+/*============= videocomplex styles ===========*/
+.videocomplex {
+  padding-top: 150px; }
+  .videocomplex__wrapper {
+    margin-top: 30px; }
+  .videocomplex__left {
+    width: 50%; }
+    @media only screen and (max-width: 992px) {
+      .videocomplex__left {
+        width: 100%; } }
+  .videocomplex__right {
+    width: 45%; }
+    @media only screen and (max-width: 992px) {
+      .videocomplex__right {
+        width: 100%; } }
+  .videocomplex__top-text, .videocomplex__txt {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    color: #1f1b20; }
+  .videocomplex__txt {
+    margin-top: 30px;
+    padding-bottom: 80px; }
+    .videocomplex__txt p {
+      padding-bottom: 15px; }
+  .videocomplex__list-block {
+    margin-top: 75px; }
+  .videocomplex__img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .videocomplex__img img {
+      object-fit: cover; }
+      @media only screen and (max-width: 480px) {
+        .videocomplex__img img {
+          width: 100%; } }
+    .videocomplex__img:last-child {
+      margin-top: 80px; }
+
 /*~~~~~~~~~~~~~ end pages ~~~~~~~~~~~~~*/
 /*=================================================*/
 /*=============== components =======================*/
@@ -3701,7 +3790,6 @@ section {
   .calling-top__title span {
     font-size: 18px; }
 
-/* == new styles ==*/
 .h3-low > h3 {
   color: #1f1b20;
   font-family: "OpenSansSemibold", sans-serif;
@@ -3989,7 +4077,7 @@ section {
   .text-block p span {
     color: #e31e25; }
 
-.red-span > h4 > span {
+.red-span h4 > span, .red-span h3 > span {
   color: #e31e25; }
 
 .right-flex {
@@ -4080,3 +4168,28 @@ section {
 @media only screen and (max-width: 480px) {
   .border-min {
     height: 80px; } }
+
+/* == new styles ==*/
+.right-background {
+  width: 40vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0; }
+  @media only screen and (max-width: 992px) {
+    .right-background {
+      display: none; } }
+  .right-background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.left-container {
+  width: 60%;
+  display: inline-block; }
+  @media only screen and (max-width: 992px) {
+    .left-container {
+      width: 100%; } }
+
+.h4-red > h4 {
+  color: #e31e25; }

@@ -543,7 +543,6 @@
   span
     font-size: 18px
 
-/* == new styles ==*/
 .h3-low > h3
   color: $textDefualt
   font-family: $semi
@@ -753,8 +752,8 @@
     span
       color: $red
 
-.red-span > h4 > span
-  color: $red
+.red-span h4 > span, .red-span h3 > span
+    color: $red
 
 .right-flex
   width: 100%
@@ -824,5 +823,26 @@
   +respond-to(480)
     height: 80px
 
+/* == new styles ==*/
 
+.right-background
+  width: 40vw
+  height: 100%
+  position: absolute
+  top: 0
+  right: 0
+  +respond-to(992)
+    display: none
+  img
+    width: 100%
+    height: 100%
+    object-fit: cover
 
+.left-container
+  width: 60%
+  display: inline-block
+  +respond-to(992)
+    width: 100%
+
+.h4-red > h4
+  color: $red
