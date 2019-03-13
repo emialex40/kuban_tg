@@ -3179,6 +3179,66 @@ section {
     .videocomplex__img:last-child {
       margin-top: 80px; }
 
+/*=====================================*/
+/*========= horeca styles ============*/
+/*=====================================*/
+.offer {
+  padding-top: 150px; }
+  .offer__subheader {
+    margin-top: 25px; }
+
+/*========== garson styles ==========*/
+.garson {
+  padding-top: 150px; }
+  .garson__text {
+    padding-top: 30px;
+    padding-bottom: 80px; }
+  .garson__get {
+    position: relative; }
+  .garson__models {
+    margin-top: 80px; }
+
+/*======== board styles ===========*/
+.board {
+  margin-top: 70px; }
+  .board__wrapper {
+    position: relative; }
+  .board__text {
+    margin-top: 30px; }
+  .board__list-title {
+    margin-top: 35px; }
+
+/*========== clients styles ===========*/
+.clients {
+  margin-top: 70px; }
+  .clients__text {
+    margin-top: 30px; }
+  .clients__offer {
+    margin-top: 80px; }
+
+/*========== charger styles =========*/
+.charger {
+  padding-top: 65px; }
+  .charger__text {
+    margin-top: 30px; }
+  .charger__advantage {
+    margin-top: 75px; }
+  .charger__offer {
+    margin-top: 75px; }
+
+/*======== POS styles =============*/
+.pos {
+  padding-top: 70px; }
+  .pos__wrapper {
+    position: relative;
+    width: 100%; }
+  .pos__text {
+    margin-top: 35px; }
+  .pos__list-title {
+    margin-top: 65px; }
+  .pos__offer {
+    margin-top: 80px; }
+
 /*~~~~~~~~~~~~~ end pages ~~~~~~~~~~~~~*/
 /*=================================================*/
 /*=============== components =======================*/
@@ -3960,7 +4020,6 @@ section {
     .inside-text p strong {
       text-transform: uppercase; }
 
-/* new styles */
 .left-flex {
   width: 100%; }
   .left-flex__item-left {
@@ -4193,3 +4252,87 @@ section {
 
 .h4-red > h4 {
   color: #e31e25; }
+
+/* new styles */
+.red-strong-span {
+  margin-top: 20px;
+  margin-bottom: 70px; }
+  .red-strong-span strong {
+    font-family: "OpenSansSemibold", sans-serif;
+    font-size: 20px;
+    color: #1f1b20;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 30px; }
+    .red-strong-span strong:last-child {
+      margin-bottom: 0; }
+    .red-strong-span strong span {
+      text-transform: uppercase;
+      color: #e31e25; }
+
+.object ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  @media only screen and (max-width: 768px) {
+    .object ul {
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
+  .object ul li {
+    max-width: 305px;
+    min-width: 280px;
+    margin-bottom: 75px; }
+
+.object__title {
+  font-family: "OpenSansSemibold", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1f1b20;
+  text-transform: uppercase; }
+
+.object__model {
+  font-family: "OpenSansSemibold", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #e31e25;
+  text-transform: uppercase;
+  margin-top: 6px; }
+  .object__model span {
+    text-transform: lowercase;
+    display: block; }
+
+.object__desc {
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1f1b20;
+  margin-top: 12px; }
+
+.object__img {
+  margin-top: 25px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.object__price {
+  margin-top: 30px; }

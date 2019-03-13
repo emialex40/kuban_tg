@@ -663,8 +663,6 @@
     strong
       text-transform: uppercase
 
-/* new styles */
-
 .left-flex
   width: 100%
   &__item-left
@@ -846,3 +844,64 @@
 
 .h4-red > h4
   color: $red
+
+/* new styles */
+
+.red-strong-span
+  margin-top: 20px
+  margin-bottom: 70px
+  strong
+    font-family: $semi
+    font-size: 20px
+    color: $textDefualt
+    font-weight: 400
+    display: block
+    margin-bottom: 30px
+    &:last-child
+      margin-bottom: 0
+    span
+      text-transform: uppercase
+      color: $red
+
+.object
+  ul
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    +respond-to(768)
+      justify-content: space-around
+    li
+      max-width: 305px
+      min-width: 280px
+      margin-bottom: 75px
+  &__title
+    font-family: $semi
+    font-size: 18px
+    font-weight: 400
+    color: $textDefualt
+    text-transform: uppercase
+  &__model
+    font-family: $semi
+    font-size: 18px
+    font-weight: 400
+    color: $red
+    text-transform: uppercase
+    margin-top: 6px
+    span
+      text-transform: lowercase
+      display: block
+  &__desc
+    font-family: $reg
+    font-size: 16px
+    font-weight: 400
+    color: $textDefualt
+    margin-top: 12px
+  &__img
+    margin-top: 25px
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+  &__price
+    margin-top: 30px
