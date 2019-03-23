@@ -3239,6 +3239,84 @@ section {
   .pos__offer {
     margin-top: 80px; }
 
+/*=====================================*/
+/*========= video stac styles ============*/
+/*=====================================*/
+.v-func {
+  padding-top: 145px; }
+  .v-func__wrapper {
+    margin-top: 85px;
+    position: relative; }
+
+/*========== variants styles ==========*/
+.variants {
+  padding-top: 150px; }
+  .variants__icons-block {
+    margin-top: 75px; }
+  .variants__price {
+    margin-top: 75px;
+    padding-bottom: 75px; }
+    .variants__price-title {
+      margin-bottom: 30px; }
+
+/*========= v-service styles ============*/
+.v-service {
+  padding-top: 145px; }
+  .v-service__text {
+    margin-top: 35px; }
+
+.v-adv {
+  padding-top: 145px; }
+  .v-adv__list {
+    margin-top: 15px; }
+
+/*=====================================*/
+/*========= video on transport styles ============*/
+/*=====================================*/
+.t-adv {
+  padding-top: 150px; }
+  .t-adv__wrapper {
+    position: relative;
+    margin-top: 20px; }
+
+/*======== how work styles =============*/
+.howwork {
+  padding-top: 80px; }
+  .howwork__wrapper {
+    margin-top: 40px; }
+  .howwork__item {
+    width: 47%;
+    min-width: 280px;
+    margin-bottom: 40px; }
+  .howwork__icon {
+    width: 111px;
+    height: 91px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin-bottom: 20px; }
+  .howwork__text p {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #1f1b20; }
+    .howwork__text p span {
+      text-transform: uppercase;
+      color: #e31e25; }
+  .howwork__price {
+    margin: 80px 0; }
+  .howwork__price-title {
+    margin-bottom: 10px; }
+
+/*======= profit styles ============*/
+.t-profit {
+  padding-top: 150px; }
+
 /*~~~~~~~~~~~~~ end pages ~~~~~~~~~~~~~*/
 /*=================================================*/
 /*=============== components =======================*/
@@ -4228,7 +4306,6 @@ section {
   .border-min {
     height: 80px; } }
 
-/* == new styles ==*/
 .right-background {
   width: 40vw;
   height: 100%;
@@ -4253,7 +4330,6 @@ section {
 .h4-red > h4 {
   color: #e31e25; }
 
-/* new styles */
 .red-strong-span {
   margin-top: 20px;
   margin-bottom: 70px; }
@@ -4336,3 +4412,70 @@ section {
 
 .object__price {
   margin-top: 30px; }
+
+.text-station {
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1f1b20; }
+  .text-station strong {
+    display: block;
+    font-family: "OpenSansSemibold", sans-serif;
+    text-transform: uppercase; }
+  .text-station span {
+    display: block;
+    color: #e31e25;
+    text-transform: uppercase; }
+  .text-station p {
+    display: block;
+    color: #1f1b20; }
+
+.icn {
+  width: 250px; }
+  @media only screen and (max-width: 1029px) {
+    .icn {
+      margin-bottom: 30px; } }
+  .icn__img {
+    width: 100%;
+    height: 91px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; }
+  .icn__text {
+    width: 100%;
+    text-align: center;
+    padding-top: 40px; }
+  .icn__title {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #e31e25;
+    text-transform: uppercase; }
+  .icn__desc {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1f1b20;
+    padding-top: 8px; }
+
+.p-station > p {
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1f1b20;
+  padding-bottom: 15px; }
+  .p-station > p strong {
+    font-family: "OpenSansSemibold", sans-serif;
+    text-transform: uppercase; }
+  .p-station > p span {
+    color: #e31e25; }
+
+/* == new styles ==*/
+.p-mix p {
+  font-family: "OpenSansRegular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #1f1b20;
+  padding-bottom: 20px; }
+  .p-mix p:first-child {
+    font-size: 18px; }
